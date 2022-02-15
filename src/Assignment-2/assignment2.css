@@ -1,89 +1,106 @@
 /* Our CSS file. */
 
-
 .container, .content {
-width: 100%;
-height: 100%;
+    width: 100%;
+    height: 100%;
+    }
+
+.main-container{
+    width:100%;
+    height:710px;
+    border: 2px solid black;
 }
-.page-header{
-    margin: 10px;
-    width: calc(100%-20px);
-    height: 150px;
-    background-color: white;
-    display: block;
-    border: 2px solid;
+.BOX{
+    border: 2px solid black;
+    width: 98%;
+    height:80px;
+    margin-top: 20px;
+    margin-left: 8px;
+    background-color: aquamarine;}
+.PAGE-LOGO,.page-search{
+    margin-top: 30px;
+   border: 2px solid black;
+   height: 20px;
 }
-.page-logo-container{
-    height: 150px;
-    width:  150px;
+.PAGE-LOGO{
     float: left;
-}
-.page-logo{
-    height: 150px;
-    width: 150px;
+    margin-left: 15px;
+    padding-left: 5px;
+    padding-top: 5px;
+    width: 50px;
 }
 .page-search{
     float: right;
-    margin-top: 50px;
+    margin-right: 10px;
 }
-.page-nav-bar{
-    width: 100%;
-    height: 40px;
-    padding: 10px 0px;
-}
-.page-nav-link{
-    width: 25%;
-    display: inline-block;
+.main-nav{
+    border: 2px solid black;
+    width: 99.8%;
+    height:20px ;
+    margin-top: 100px;
     text-align: center;
-    line-height: 20px;
+    padding-top: 15px;
 }
-.col1{
-    width: 15%;
-    height:81%;
-    margin: 10px;
+.page-link{
+    color:black;
+    padding-left: 45px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.single-line{
+    border: black solid 1px;
+    width: 100%;
+    margin-top: 10px;
+}
+.left-list{
     display: inline-block;
-    border: 2px solid;
-    padding: 0.25%;
-    position: absolute;
-    left: 0%;
-    line-height: 300%
+    border: 2px solid black;
+    width:130px;
+    height: 423px;
+    position: relative;
+    top:-140px;
+    margin-left: 10px;
 }
-.col2{
-  display: inline-block;
-  border: 2px solid;
-  align-content: center;
-  position: absolute;
-  right:15%;
-  width: 65%;
-  height: 81%;
-  margin: 10px;
-  padding: 0.25%;
-  justify-content: center;
+ul li{
+    list-style: none;
+    padding-bottom: 10px;
+    color: black;
+    font-weight: bold ;
+    position: relative;
+    left:-30px;
 }
-.col3{
-    width: 15%;
-    height:81%;
-    margin: 10px;
+section{
     display: inline-block;
-    border: 2px solid;
-    padding: 0.25%;
-    position: absolute;
-    right: 0%;
-    line-height: 300%
+    width:1025px;
+    height: 423px;
+    border: 2px solid black;
+    margin-top: 50px;
+    margin-left: 85px;
 }
-.box{
-    width: 100.5%;
-    height: 100%;
-    margin: 10px;
-    display: block;
-    margin: 0px 10px 0px;
-    border-left: 2px solid;
-    border-right: 2px solid;
+.post-img{
+    width: 150px;
+    height: 200px;
+    padding-top: 5px;
+    padding-left: 140px;
+    padding-bottom: 5px;
 }
-.footer{
-    display: inline-block;
-    border: 2px solid;
-    position: absolute;
-    bottom: 0%;
+.right-list{
+    float: right;
+    margin-top:50px ;
+    margin-right: 21px;
+    border: 2px solid black;
+    width: 130px;
+    height: 423px;
 }
-
+footer{
+    border: 2px solid black;
+    width:96.5% ;
+    margin-left: 10px;
+    margin-top: 15px;
+    padding-left: 18px;
+    height: 100px;
+    position: relative;
+    top: -150px;
+    color: black;
+    font-weight: bold;
+}
