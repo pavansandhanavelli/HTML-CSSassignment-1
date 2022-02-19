@@ -12,9 +12,9 @@ height: 100%;
 .row{
     height:50%;
     width:100%;
-    border:2px solid;
-    display:block;
-    margin:10px;
+    border: 2px solid black;
+    display: block;
+    margin: 10px;
     }
 .column{
     display:inline-block;
@@ -24,7 +24,7 @@ height: 100%;
     }
 .pavan{
     position: relative;
-    top: -120px;
+    bottom: 100px;
 
 }  
 
